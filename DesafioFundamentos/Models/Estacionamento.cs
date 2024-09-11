@@ -67,6 +67,7 @@ namespace DesafioFundamentos.Models
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine("Não há nenhum veículo estacionado no esctacionamento!");
                 Console.WriteLine("\nAperte uma tecla para continuar:");
                 Console.ReadKey();
